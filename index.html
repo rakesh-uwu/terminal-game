@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Ping Pong</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <h1>Advanced Ping Pong</h1>
+            <div class="score-board">
+                <div id="player-score">0</div>
+                <div id="computer-score">0</div>
+            </div>
+        </div>
+        
+        <div class="game-container">
+            <canvas id="game" width="800" height="500"></canvas>
+            <div class="controls">
+                <button id="start-btn">Start Game</button>
+                <div class="difficulty">
+                    <span>Difficulty:</span>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h2>How to Play</h2>
+            <p>Use your mouse or touch to move the paddle up and down.</p>
+            <p>Press 'P' to pause the game.</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
