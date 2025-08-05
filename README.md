@@ -68,4 +68,10 @@ Potential improvements for future versions:
 - Additional game modes
 - Sound effects and background music
 - Customizable paddle and ball appearance
+
 - Leaderboard functionality
+
+## Link
+
+
+[!image](photo.png)
