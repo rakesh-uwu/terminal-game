@@ -72,6 +72,9 @@ Potential improvements for future versions:
 - Leaderboard functionality
 
 ## Link
+- https://rakesh-uwu.github.io/terminal-game/
 
 
-[!image](photo.png)
+## Screenshot
+
+![image](photo.png)
